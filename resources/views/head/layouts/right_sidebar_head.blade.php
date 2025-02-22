@@ -44,38 +44,13 @@
                       <!-- <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"><i data-feather="clipboard"></i><span>Registration</span></a> -->                  
                         <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"><i data-feather="server"></i><span>Fitur IWR</span></a>
                           <ul class="sidebar-submenu">
-                            <li class="sidebar-list"><a class="sidebar-link sidebar-title link-nav" href="/admin/lihat_data_iwr"><span>Lihat Data IWR</span></a></li>
+                            <li class="sidebar-list"><a class="sidebar-link sidebar-title link-nav" href="/head/approval_head"><span>Lihat Data IWR</span></a></li>
                           </ul>
                         </li>
                     </ul>
                   </li>
                   
                   
-                  <li class="sidebar-main-title">          
-                    <h6>User Management</h6>
-                  </li>
-                  <li class="menu-box"> 
-                    <ul>
-                      <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"><i data-feather="clipboard"></i><span>User</span></a>
-                        <ul class="sidebar-submenu">
-                          {{-- <li><a class="submenu-title" href="javascript:void(0)">Bootstrap Tables<span class="sub-arrow"><i class="fa fa-angle-right"></i></span></a>
-                            <ul class="nav-sub-childmenu submenu-content">
-                              <li><a href="bootstrap-basic-table.html">Basic Tables</a></li>
-                              <li><a href="table-components.html">Table components</a></li>
-                            </ul>
-                          </li>
-                          <li><a class="submenu-title" href="javascript:void(0)">Data Tables<span class="sub-arrow"><i class="fa fa-angle-right"></i></span></a>
-                            <ul class="nav-sub-childmenu submenu-content">
-                              <li><a href="datatable-basic-init.html">Basic Table</a></li>
-                              <li><a href="datatable-API.html">Data API</a></li>
-                              <li><a href="datatable-data-source.html">Data Sources</a></li>
-                            </ul>
-                          </li> --}}
-                          <li><a class="sidebar-link sidebar-title link-nav" href="/admin/user"><span>User</span></a></li></li>
-                          <li><a class="sidebar-link sidebar-title link-nav" href="{{ route('roles.index')}}"><span>Permission</span></a></li></li>
-                        </ul>
-                    </ul>
-                  </li>
 
 
 

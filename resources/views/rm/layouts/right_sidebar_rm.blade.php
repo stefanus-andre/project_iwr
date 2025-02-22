@@ -1,6 +1,6 @@
 <div class="sidebar-wrapper">
           <div>
-            <div class="logo-wrapper"><a href="/admin/dashboard"></a>
+            <div class="logo-wrapper"><a href="/rm/dashboard"></a>
               <div class="back-btn"><i class="fa fa-angle-left"></i></div>
               <!-- <div class="toggle-sidebar"><i class="fa fa-cog status_toggle middle sidebar-toggle"> </i></div> -->
             </div>
@@ -28,7 +28,7 @@
                   </li>
                   <li class="menu-box"> 
                     <ul>
-                        <li class="sidebar-list"><a class="sidebar-link sidebar-title link-nav" href="/admin/dashboard"><i data-feather="pie-chart"></i><span>Dashboard</span></a></li>
+                        <li class="sidebar-list"><a class="sidebar-link sidebar-title link-nav" href="/rm/dashboard"><i data-feather="pie-chart"></i><span>Dashboard</span></a></li>
                         {{-- <li class="sidebar-list"><a class="sidebar-link sidebar-title link-nav" href="/admin/registrasi_asset/lihat_data_registrasi_asset"><i data-feather="clipboard"></i><span>Registration</span></a></li> --}}
                         {{-- <li class="sidebar-list"><a class="sidebar-link sidebar-title link-nav" href="/admin/halaman_asset"><i data-feather="clipboard"></i><span>Registration</span></a></li>
                         <li class="sidebar-list"><a class="sidebar-link sidebar-title link-nav" href="#"><i data-feather="arrow-right"></i><span>Assets Movement</span></a></li> --}}

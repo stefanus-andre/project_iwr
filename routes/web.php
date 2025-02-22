@@ -99,11 +99,11 @@ Route::prefix('rm')->middleware(['auth', 'role:rm'])->group(function() {
 Route::prefix('head')->middleware(['auth', 'role:head'])->group(function() {
     Route::get('/dashboard', [HeadController::class, 'Dashboard']);
 
-    Route::get('/approval_head', [RmController::class, 'HalamanApproval3']);
-    Route::post('/update-approval3', [RmController::class, 'UpdateApproval3'])->name('approval.head');
+    Route::get('/approval_head', [HeadController::class, 'HalamanApproval3']);
+    Route::post('/update-approval3', [HeadController::class, 'UpdateApproval3'])->name('approval.head');
 
 
-    Route::get('/logout', [HeadController::class, 'logout']);
+    Route::get('/logout', [HeadController::class, 'logout'])->name('head.logout');
 });
 
 
